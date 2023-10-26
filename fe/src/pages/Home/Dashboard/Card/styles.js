@@ -75,15 +75,13 @@ export const CardItem = styled.div`
     }
 
     .categorySpan {
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      display: -webkit-box;
       font-size: 16px;
       font-weight: bold;
       max-width: 110px;
       height: 23px;
-      text-overflow: ellipsis;
-      overflow: hidden;
+      white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+      overflow: hidden; /* Oculta qualquer conteúdo excedente */
+      text-overflow: ellipsis; /* Adiciona reticências ao final do texto cortado */
 
       @media screen and (max-width: 1200px) {
         font-size: 14px;
