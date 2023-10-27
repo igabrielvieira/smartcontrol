@@ -3,7 +3,8 @@
 </div>
 
 <hr>
-<br>
+
+#### Confira aqui um vídeo da aplicação: https://youtu.be/JH5WDnIm-O0
 
 # Funcionalidades
 - Listagem, cadastro, atualização e remoção de produtos
