@@ -42,6 +42,8 @@ $ docker ps
 
 $ docker start api-db-1 (caso o container não apareça no comando acima)
 
+$ npm install # ou yarn install
+
 $ yarn dev
 
 ```
