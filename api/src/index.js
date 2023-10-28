@@ -22,6 +22,6 @@ app.use(cors); // Middleware de CORS
 app.use(routes); // Middleware 2
 app.use(errorHandler); // Middleware de erros não tratados para não expor o código
 
-app.listen(port, () => console.log(`🔥 Servidor iniciado em http://192.168.3.6:${port}`));
+app.listen(port, () => console.log(`🔥 Servidor iniciado em http://localhost:${port}`));
 
 // Middleware (se passar) -> Middleware 2 -> Middleware 3 -> Rotas
