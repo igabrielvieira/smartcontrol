@@ -2,7 +2,7 @@ import HttpClient from './utils/HttpClient';
 
 class ProductsService {
   constructor() {
-    this.httpClient = new HttpClient('http://192.168.3.6:3001');
+    this.httpClient = new HttpClient('http://localhost:3001');
   }
 
   listProducts(orderBy = 'asc') {
